@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CTS() {
   return (
-    <section className="bg-gray-50">
+    <section className="">
       <div className="p-8 md:p-12 lg:px-16 lg:py-10">
         <div className="mx-auto max-w-lg text-center">
           <br />
@@ -68,10 +68,10 @@ export default function CTS() {
                 Email
               </label>
 
-              <input
+              <input 
                 type="email"
                 placeholder="Connect with me - Email address"
-                className="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-yellow-400"
+                className="w-full rounded-md border border-[#000080] border-solid border-2 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-yellow-400"
               />
             </div>
 

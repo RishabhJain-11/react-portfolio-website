@@ -2,10 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100">
-      <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="flex justify-center text-teal-600">vṛṣabha ārhata</div>
-        <ul className="mt-12 flex justify-center gap-6 md:gap-8">
+    <footer>
+        <ul className="flex justify-center gap-6 md:gap-8 pb-10">
           <li>
             <a
               href="/"
@@ -117,7 +115,6 @@ export default function Footer() {
             </a>
           </li>
         </ul>
-      </div>
     </footer>
   );
 }

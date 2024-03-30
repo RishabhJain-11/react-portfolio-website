@@ -1,4 +1,5 @@
 import React from "react";
+import { Logo } from "../images/index";
 
 export default function Header() {
   return (
@@ -6,9 +7,12 @@ export default function Header() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
-            <a className="block text-[#000080] font-extrabold" href="/">
-              <span className="sr-only">Home</span>
-              vṛṣabha ārhata
+          <a className="block text-[#000080] font-extrabold flex items-center" href="/">
+              <img src={Logo} alt="Logo" className="h-10 w-auto"  />
+              <div>
+                <span className="sr-only">Home</span>
+                <span className="text-lg">vṛṣabha ārhata</span>
+              </div>
             </a>
           </div>
           <div className="flex items-center gap-4">

@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Quicksand';
-    src: url('./fonts/Quicksand.ttf');
+    font-family: 'Yaruba';
+    src: url('./fonts/YsabeauSC-VariableFont_wght.ttf');
 }
 body{
-    font-family: 'Quicksand';
+    font-family: 'Yaruba';
+}
+
+html{
+    font-size: larger;
 }

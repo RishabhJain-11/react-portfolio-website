@@ -9,7 +9,7 @@ export default function CTS() {
           <br />
           <header>
             <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-              Rishabh Jain - Freelancer
+              Rishabh Jain
             </h2>
             <p className="mt-4 text-gray-500">
               Creators of innovative design solutions, captivating online
@@ -28,9 +28,9 @@ export default function CTS() {
                 href="/"
                 className="text-green-600 font-extrabold underline underline-offset-2"
               >
-                Upwork
+                Upwork 
               </a>
-              , Freelancer,{" "}
+              ,{" "}
               <a
                 href="/"
                 className="text-blue-400 font-extrabold underline underline-offset-2"

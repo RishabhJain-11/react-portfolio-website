@@ -4,7 +4,8 @@
 
 @font-face {
     font-family: 'Yaruba';
-    src: url('./fonts/YsabeauSC-VariableFont_wght.ttf');
+    /* src: url('./fonts/YsabeauSC-VariableFont_wght.ttf'); */
+    src: url('./fonts/SpaceGrotesk-VariableFont_wght.ttf');
 }
 body{
     font-family: 'Yaruba';
@@ -17,3 +18,8 @@ html{
 .blue-logo {
     filter: brightness(0) invert(0.8) sepia(1) hue-rotate(190deg) saturate(5);
   }
+
+::selection{
+    color:white;
+    background-color: red;
+}

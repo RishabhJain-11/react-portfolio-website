@@ -11,14 +11,15 @@ export default function Header() {
               <img src={Logo} alt="Logo" className="h-10 w-auto"  />
               <div>
                 <span className="sr-only">Home</span>
-                <span className="text-lg">vṛṣabha ārhata</span>
+                {/* <span className="text-lg">Vṛṣabha ārhata</span> */}
+                <span className="text-lg">RmJ</span>
               </div>
             </a>
           </div>
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <a
-                className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
+                className="rounded-md bg-red-600 px-5 py-2.5 text-sm font-medium text-white shadow"
                 href="/"
               >
                 All Links
@@ -26,7 +27,7 @@ export default function Header() {
 
               <div className="hidden sm:flex">
                 <a
-                  className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                  className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-red-600"
                   href="/"
                 >
                   Blog

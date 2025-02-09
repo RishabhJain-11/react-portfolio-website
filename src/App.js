@@ -1,15 +1,11 @@
 import './App.css';
-import CTS from './components/CTS';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import LandingPage from './pages/LandingPage';
 
 
 function App() {
   return (
     <>
-      <Header/>
-      <CTS/>
-      <Footer/>
+      <LandingPage />
     </>
   );
 }
